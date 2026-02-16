@@ -1,0 +1,639 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+    -webkit-font-smoothing:antialiased;
+}
+.page3, .page2, .page1, .page4, .page5{
+    min-height: 100vh;
+    width: 100%;
+}
+
+.page1{
+    background-image: url(Image/back.jpg);
+    background-size: cover;
+    border-radius: 0px 0px 40px 40px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 20px 30px;
+    align-items: center;
+}
+nav h1{
+    color: white;
+
+}
+.part2{
+    display: flex;
+    justify-content: space-around;
+    width: min(800px, 80%);
+    max-width: 800px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.385);
+    align-items: center;
+    height: 50px;
+    border-radius: 14px;
+    border: none;
+}
+
+.part2 a{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(155, 132, 132);
+}
+
+#part3 button{
+    color:black ;
+    width: 60px;
+    align-items: center;
+    height: 50px;
+    border-radius: 14px;
+    border: 1px white solid;
+}
+#part3 a{
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+#part3 a :hover{
+    background-color: #363535;
+    color: aliceblue;
+    cursor:pointer;
+}
+.center{
+    padding-top: clamp(80px, 20vh, 200px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.center-text1{
+    font-size: clamp(32px, 6vw, 80px);
+    color: white;
+    text-align: center;
+}
+
+.information{
+    backdrop-filter: blur(10px);
+    height: auto;
+    width: min(700px, 90%);
+    max-width: 700px;
+    border-radius: 40px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+}
+
+.info1{
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+}
+.information i{
+    padding: 0px 5px;
+}
+.information button{
+    border-radius: 40px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border: none;
+    height: 40px;
+    width: 80px;
+    margin-right: 10px;
+}
+
+.about{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    width: min(70%, 1200px);
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.abt{
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(88, 85, 85, 0.597) 1px 6px ;
+    text-align: center;
+}
+
+.abt .txt{
+    padding-top: 10px;
+    font-size:30px;
+    font-weight: bold;
+}
+.abt p{
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* for second page */
+
+.heading{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+.heading p{
+    font-size:25px ;
+}
+.hpart1 h2{
+    font-size: 50px;
+}
+.place-div{
+    margin-top: 70px;
+}
+.place-img1{
+    background: url(Image/bromo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.place-img2{
+    background: url(Image/beach.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.place-img3{
+    background: url(Image/lampung.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.place-img4{
+    background: url(Image/temple.jpg);
+    background-position:bottom;
+    background-size: cover;
+}
+.place-img12, .place-img34{
+    display: flex;
+    justify-content:center;
+}
+.place-img2, .place-img3{
+    height: 335px;
+    width: min(500px, 45%);
+    max-width: 500px;
+    border-radius: 30px;
+    margin: 20px ;
+    text-align:center;
+}
+.place-img1, .place-img4{
+    height: 335px;
+    width: min(800px, 95%);
+    max-width: 800px;
+    border-radius: 30px;
+    margin: 20px ;
+    text-align: center;
+}
+.place-img1  p{
+     font-size: 20px;
+    color: white;
+    margin-top: 200px;
+}
+.place-img2  p{
+     font-size: 20px;
+    color: white;
+    margin-top: 200px;
+}
+.place-img3  p{
+     font-size: 20px;
+    color: white;
+    margin-top: 200px;
+}
+.place-img4  p{
+     font-size: 20px;
+    color: white;
+    margin-top: 200px;
+}
+.place-img1 h3{
+     font-size: 30px;
+    color: white;
+}
+.place-img2 h3{
+     font-size: 30px;
+    color: white;
+}
+.place-img3 h3{
+    font-size: 30px;
+    color: white;
+}
+.place-img4  h3{
+     font-size: 30px;
+    color: white;
+}
+
+
+
+
+.page3-center-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.page3-center-part1{
+    height: auto;
+    min-height: 400px;
+    width: min(500px, 95%);
+    max-width: 500px;
+    background: url(Image/part3-center-back.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.spice{
+    height: 50px;
+    width: 400px;
+    margin: 600px 60px 0px 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    border: 1px solid gray;
+}
+.spice button{
+    color:black ;
+    width: 60px;
+    align-items: center;
+    height: 30px;
+    border-radius: 14px;
+    border: 1px white solid;
+}
+.page3-center-part1 p{
+    font-size: 20px;
+    padding: 20px 20px 20px 20px;
+    color: white;
+}
+.page3-center-part2{
+     height: 800px;
+    width: 500px;
+}
+.page3-center-part2 .text2{
+    font-size: 30px;
+}
+.page3-center-part2 .text{
+    font-size: 20px;
+}
+.ai-divs{
+    height: auto;
+    width: min(500px, 95%);
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    font-size: 1.15rem;
+}
+.ai-div1{
+    height: 70px;
+    width: 500px;
+    border-radius: 30px;
+    padding: 10px 0px 10px 0px;
+}
+.ai-div1 p{
+    font-size: 20px;
+    padding: 10px 0px 0px 40px;
+}
+.ai-div1 i{
+    font-size: 30px;
+    padding-right: 20px;
+}
+
+
+
+
+.heading2{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.heading2 p{
+    font-size:25px ;
+}
+.hpart11 h2{
+    font-size: 50px;
+}
+.div-packages{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.div-packages i{
+    padding-right: 10px;
+    color: yellow;
+}
+.package{
+    height: auto;
+    min-height: 360px;
+    width: min(500px, 90%);
+    max-width: 500px;
+    border-radius: 30px;
+    background-color: aquamarine;
+}
+.package1{
+    background: url(Image/bali.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.package2{
+    background: url(Image/java.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.package3{
+    background: url(Image/solo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.pack-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pack-top-left, .pack-top-right{
+    margin: 20px 20px 0px 20px;
+    padding: 10px 10px 0px 10px;
+    font-size: 20px;
+    color: white;
+    border-radius: 30px;
+    border: 1px solid gray;
+    height: 30px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+}
+
+.pack-bottom{
+    backdrop-filter: blur(10px);
+    margin: 400px 20px 0px 20px;
+    border-radius: 30px;
+    border: 1px solid gray;
+    height: 100px;
+    width: 450px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.pack-bottom p{
+    margin:20px 0px 10px 0px ;
+}
+
+.page4 button{
+    margin: 50px 0px 0px 850px;
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+.center-page5{
+    margin: 0 auto;
+    padding: 1rem;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+}
+.blogs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+.blog1 , .blog2{
+    height: auto;
+    width: min(650px, 95%);
+    border-radius: 30px;
+    border: 1px gray solid;
+}
+.img-blog1{
+    height: 400px;
+    width: 600px;
+    background: url(Image/jungle.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    margin: 20px;
+}
+.img-blog2{
+    height: 400px;
+    width: 600px;
+    background: url(Image/offroad.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.page5 button{
+    margin: 50px 0px 0px 850px;
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.blogs .light{
+    padding: 20px 0px 20px 10px;
+    color: gray;
+    font-size: 30px;
+    margin:0px 0px 0px 20px ;
+}
+
+.blogs .dark{
+    color: black;
+    font-size: 35px;
+    margin:0px 0px 20px 20px ;
+}
+
+
+
+.contact{
+    margin-top:50px ;
+    width: 100%;
+    background-color:rgb(54, 53, 53);
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 2rem 1rem;
+    flex-wrap: wrap;
+}
+
+.contact1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 70px;
+    font-size: 25px;
+}
+.cont1,.cont2,.cont3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact2{
+    margin-top: 130px;
+    color: white;
+    gap: 50px;
+    font-size: 1.1rem;
+    width: min(600px, 95%);
+}
+.contact2 h6{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.email{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: 1px gray solid;
+    width: 400px;
+    height: 40px;
+}
+.email button{
+    background-color: gray;
+    color: white;
+    height: 30px;
+    font-size: 15px;
+    width: 80px;
+    border: 0px;
+    border-radius: 30px;
+}
+.email input{
+    background-color: #363535;
+    color: white;
+    height: 30px;
+    border: 0px;
+    font-size: 20px;
+}
+.email input:focus{
+    outline: none;
+}
+.icon-foot{
+    margin: 30px 0 0 0;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon-foot i{
+    border-radius: 50%;
+    height: 30px;
+    background-color: gray;
+    color: aliceblue;
+    width: 30px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last-foot{
+    font-size: 20px;
+    margin: 60px 300px 300px 0px;
+}
+
+@media (max-width: 1024px) {
+    .part2{ 
+        width: min(700px, 90%); 
+    }
+    .place-img2, .place-img3{
+         width: min(450px, 48%);
+         }
+    .place-img1, .place-img4{
+         width: min(700px, 95%); 
+    }
+    .center{
+         padding-top: 6rem; 
+    }
+    .information{
+         margin-top: 1.5rem; 
+    }
+    .pack-bottom{
+         margin: 2.5rem 20px 0 20px; width: calc(100% - 40px); 
+    }
+    .page4 button, .page5 button{
+         margin: 2rem auto; display: block; 
+    }
+}
+
+@media (max-width: 600px) {
+    nav{
+         padding: 18px; 
+    }
+    .part2{
+         width: 92%; height: 45px; 
+    }
+    .part2 a{
+         font-size: 18px;
+     }
+    .about{
+         flex-direction: column; gap: 1rem; width: 95%;
+     }
+    .place-img1, .place-img2, .place-img3, .place-img4{
+         width: 95%; height: auto; margin: 10px 0;
+     }
+    .page3-center-part, .div-packages, .blogs{
+         flex-direction: column; gap: 1rem; 
+    }
+    .ai-divs, .page3-center-part1, .package, .blog1, .blog2{
+         width: 95%;
+     }
+    .center-text1{ 
+        font-size: clamp(24px, 8vw, 48px); 
+    }
+    .information{
+         flex-direction: column; align-items: stretch; padding: 0.75rem;
+     }
+    .information button{
+         margin: 0.5rem auto 0; 
+    }
+    .contact{
+         padding: 1rem;
+     }
+    .contact2{
+         margin-top: 1rem; 
+    }
+    .icon-foot{
+         margin-left: 0;
+     }
+}
+
+@media (max-width: 420px) {
+    .center{ padding-top: 4rem; }
+    .part2 a{ font-size: 16px; }
+    .center-text1{ font-size: clamp(20px, 10vw, 36px); }
+    .information{ border-radius: 20px; }
+}
